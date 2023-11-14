@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
+import { ButtonOverviewExample } from "../button_component/button-overview-example";
 
 
 
@@ -15,7 +16,7 @@ import { FormsModule } from '@angular/forms';
     templateUrl: 'input-form-example.html',
     styleUrls: ['input-form-example.css'],
     standalone: true,
-    imports: [FormsModule, MatFormFieldModule, MatInputModule,],
+    imports: [FormsModule, MatFormFieldModule, MatInputModule, ButtonOverviewExample]
 })
 export class InputFormExample { }
 

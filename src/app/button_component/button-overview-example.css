@@ -1,5 +1,8 @@
 section {
     display: table;
+    /* float: right */
+
+
 }
 
 .example-label {

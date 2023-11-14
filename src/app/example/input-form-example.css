@@ -34,3 +34,13 @@ td {
     padding-right: 8px;
     flex-shrink: 1;
 }
+
+#flex-container>.raw-item {
+    display: flex;
+    justify-content: right;
+}
+
+.right_pos {
+    display: flex;
+    justify-content: right;
+}
