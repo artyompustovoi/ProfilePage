@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ProfilePage';
+  sum: number = 1;
+  onRaiseSum(data: number): void {
+    this.sum *= data;
+  }
 }
